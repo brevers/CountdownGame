@@ -38,6 +38,7 @@ public class Game {
         "instanceof", "int", "interface", "long", "native", "new", "package", "private", "protected", "public",
         "return", "short", "static", "strictfp", "super", "switch", "synchronised", "this", "throw", "throws",
         "transient", "try", "void", "volatile", "while"};
+        
         wordP1 = "";
         wordP2 = "";
 
@@ -51,7 +52,7 @@ public class Game {
     //object Random
     Random rand = new Random();
 
-    //setters
+    //Setters
 
     public void setWordP1(String wordP1) {
         this.wordP1 = wordP1;
@@ -61,7 +62,7 @@ public class Game {
         this.wordP2 = wordP2;
     }
 
-    //getters
+    //Getters
     public String getWordP1() {
         return wordP1;
     }
