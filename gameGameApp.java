@@ -12,7 +12,6 @@ public class gameGameApp {
 
     public static void main(String[] args) {
         // variables
-
         String wordP1;
         String wordP2;
         int playAgain;
